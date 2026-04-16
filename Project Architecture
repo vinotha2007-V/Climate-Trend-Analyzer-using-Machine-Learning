@@ -1,0 +1,28 @@
+Climate-Trend-Analyzer/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── EDA.ipynb
+│   ├── preprocessing.ipynb
+│   └── modeling.ipynb
+│
+├── src/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── analysis.py
+│   ├── model.py
+│   └── visualization.py
+│
+├── outputs/
+│   ├── plots/
+│   └── reports/
+│
+├── app/
+│   └── app.py
+│
+├── requirements.txt
+├── README.md
+└── main.py
