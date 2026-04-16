@@ -1,0 +1,14 @@
+from src.data_loader import load_data
+from src.preprocessing import preprocess
+from src.analysis import calculate_trend
+from src.model import train_model
+from src.visualization import plot_trend
+
+df = load_data("data/raw/climate.csv")
+df = preprocess(df)
+
+trend = calculate_trend(df)
+plot_trend(trend)
+
+model = train_model(df)
+print("Model trained successfully")
