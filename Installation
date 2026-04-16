@@ -1,0 +1,4 @@
+git clone https://github.com/yourusername/Climate-Trend-Analyzer.git
+cd Climate-Trend-Analyzer
+
+pip install -r requirements.txt
